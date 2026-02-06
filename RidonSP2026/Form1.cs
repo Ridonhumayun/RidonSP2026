@@ -16,5 +16,22 @@ namespace RidonSP2026
         {
             InitializeComponent();
         }
-    }
-}
+        //Event procedure that will run when the user clicks pn the calculate button
+        private void btnCalc_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnQuit_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void btnClear_Click(object sender, EventArgs e)
+        {
+            txtDogOwner.Clear();
+            txtNumOfWalksPerWeek.Clear();
+            lstOut.Items.Clear();
+        }
+    }//End of Form1
+} // end of namespace
